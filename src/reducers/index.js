@@ -9,14 +9,17 @@ const songsReducer =()=>{
     ]
 }
 
-const selectedSongReducer=(selectedSong=null,action)=>{
-    if(action.payload===Song_Selected){
+ const selectedSongReducer=(selectedSong=null,action)=>{
+    if(action.payload==='Song-Selected'){
         return action.payload
     }
     return selectedSong
 
-}
-comineReducers({
+};
+export default combineReducers({
     songs:songsReducer,
     selectedSong:selectedSongReducer
 });
+
+
+
