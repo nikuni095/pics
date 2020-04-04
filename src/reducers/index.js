@@ -10,11 +10,10 @@ const songsReducer =()=>{
 }
 
  const selectedSongReducer=(selectedSong=null,action)=>{
-    if(action.payload==='Song-Selected'){
+    if(action.type==='Song-Selected'){
         return action.payload
     }
     return selectedSong
-
 };
 export default combineReducers({
     songs:songsReducer,
