@@ -6,7 +6,7 @@ class SongList extends Component{
     renderList(){
         return this.props.songs.map((song)=>{
             return (
-                <div className='item' key={song.title}>
+                <div className='item absolute-center' key={song.title}>
                 <div className='container row'>
                     <div className=''>{song.title}</div>
                     <button className='btn-1 btn-primary container right'
