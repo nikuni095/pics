@@ -13,19 +13,14 @@ class SongList extends Component{
                       onClick={()=>this.props.selectSong(song)}
                     >Select</button>
                 </div>
-                
-                </div>
-            )
-
+                </div>)
         })
     }
     render(){
-       
         return <div className=''>{this.renderList()}</div>
     }
 }
  const mapStateToprops  = state => {
-     console.log(state)
     return {songs:state.songs}
  }
 
