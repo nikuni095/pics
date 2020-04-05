@@ -9,7 +9,7 @@ const SongDeatils=({mySelectedSong})=>{
           <div>
            <h3>Details for:</h3>
            <p>
-               Title: {mySelectedSong.title} <br />
+               Title:  {mySelectedSong.title} <br />
                Duration: {mySelectedSong.duration}
            </p>
           </div>

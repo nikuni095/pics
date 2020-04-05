@@ -5,7 +5,7 @@ import SongDetails from './SongDetails'
 
 const App=()=>{
     return( <div>
-        <div className='text-danger'>
+        <div className="text-danger">
             <SongList />
         </div>
         <div className='col-8 half-width'>

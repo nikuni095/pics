@@ -9,7 +9,7 @@ class SongList extends Component{
                 <div className='item absolute-center' key={song.title}>
                 <div className='container row'>
                     <div className=''>{song.title}</div>
-                    <button className='btn-1 btn-primary container right'
+                    <button className='btn-1 btn btn-primary container right'
                       onClick={()=>this.props.selectSong(song)}
                     >Select</button>
                 </div>
